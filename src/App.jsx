@@ -38,56 +38,56 @@ function App() {
   <nav className='menu'>
   <ul className='list' >
   <li>
-                <Link to="/home" className='link' >Home</Link>
+                <Link to="/Xpressionstoree/home" className='link' >Home</Link>
             </li> 
             <li>
-                <Link to="/about" className='link' > About</Link>
+                <Link to="/Xpressionstoree/about" className='link' > About</Link>
             </li>
             <li>
-                <Link to="/shop" className='link' >Shop</Link>
+                <Link to="/Xpressionstoree/shop" className='link' >Shop</Link>
             </li>
             <li>
-              <Link to='/contact' className='link' >Contact</Link>
+              <Link to='/Xpressionstoree/contact' className='link' >Contact</Link>
             </li>
             <li>
-              <Link to='/faq' className='link' >Faqs</Link>
+              <Link to='/Xpressionstoree/faq' className='link' >Faqs</Link>
             </li>
             </ul>
             </nav>
   <span>
-  <Link to="/login" className='link'> <FontAwesomeIcon icon={faUser} style={{marginRight: '10px'}} /> </Link>
-  <Link to="/addedCarts" className='link'><FontAwesomeIcon icon={faCartShopping} /> </Link>
+  <Link to="/Xpressionstoree/login" className='link'> <FontAwesomeIcon icon={faUser} style={{marginRight: '10px'}} /> </Link>
+  <Link to="/Xpressionstoree/addedCarts" className='link'><FontAwesomeIcon icon={faCartShopping} /> </Link>
   </span>
   </header>
   <nav className='menu'>
   <ul id='list'>
   <li>
-                <Link to="/home" className='link' onClick={handleButtonClick}>Home</Link>
+                <Link to="/Xpressionstoree/home" className='link' onClick={handleButtonClick}>Home</Link>
             </li> 
             <li>
-                <Link to="/about" className='link' onClick={handleButtonClick}> About</Link>
+                <Link to="/Xpressionstoree/about" className='link' onClick={handleButtonClick}> About</Link>
             </li>
             <li>
-                <Link to="/shop" className='link' onClick={handleButtonClick}>Shop</Link>
+                <Link to="/Xpressionstoree/shop" className='link' onClick={handleButtonClick}>Shop</Link>
             </li>
             <li>
-              <Link to='/contact' className='link' onClick={handleButtonClick}>Contact</Link>
+              <Link to='/Xpressionstoree/contact' className='link' onClick={handleButtonClick}>Contact</Link>
             </li>
             <li>
-              <Link to='/faq' className='link' onClick={handleButtonClick}>Faqs</Link>
+              <Link to='/Xpressionstoree/faq' className='link' onClick={handleButtonClick}>Faqs</Link>
             </li>
             </ul>
             </nav>
 
   <Routes>
-  <Route path='/' exact Component={Home} />
-  <Route path='/home'  Component={Home} />
-  <Route path='/about'   Component={About} />
-  <Route path='/shop' Component={Shop} />
-  <Route path='/contact' Component={Contact} />
-  <Route path='/faq' Component={Faq} />
-  <Route path='/login' Component={Login} />
-  <Route path='/AddedCarts' Component={AddedCarts} />
+  <Route path='/Xpressionstoree' exact Component={Home} />
+  <Route path='/Xpressionstoree/home'  Component={Home} />
+  <Route path='/Xpressionstoree/about'   Component={About} />
+  <Route path='/Xpressionstoree/shop' Component={Shop} />
+  <Route path='/Xpressionstoree/contact' Component={Contact} />
+  <Route path='/Xpressionstoree/faq' Component={Faq} />
+  <Route path='/Xpressionstoree/login' Component={Login} />
+  <Route path='/Xpressionstoree/AddedCarts' Component={AddedCarts} />
   </Routes>
   
   </BrowserRouter>

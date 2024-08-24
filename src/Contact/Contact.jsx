@@ -14,7 +14,7 @@ const Contact = () => {
         <div style={contact}>
             <h1>Contact Us</h1>
             <p>Get in touch with us on various platforms</p>
-            <img src='/public/jeans jacket.JPG' style={{width:'300px', height:'400px', marginTop:'10px'}}/>
+            <img src='/Xpressionstoree/jeans jacket.JPG' style={{width:'300px', height:'400px', marginTop:'10px'}}/>
             <p> Facebook <FaFacebook size={15}  /> : @Xpression </p>
             <p> Twitter <FaTwitter size={15}/> : @Xpression2526 </p>
             <p> Instagram <FaInstagram size={15}/> : @Xpression002 </p>

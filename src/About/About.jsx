@@ -22,7 +22,7 @@ const About = () => {
             </p>
             </div>
             <div className='col-5'>
-            <img src="/public/swag.JPG" style={{width:'300px', height:'400px', marginTop:'10px'}}/>
+            <img src="/Xpressionstoree/swag.JPG" style={{width:'300px', height:'400px', marginTop:'10px'}}/>
             </div>
         </div>
         <p style={{textAlign:'center'}}>With over 20,000 delivery nationwide, we are across over 7 countries worldwide (South Africa, Nigeria, United States, Japan, France, Italy, Russia )</p> <br />

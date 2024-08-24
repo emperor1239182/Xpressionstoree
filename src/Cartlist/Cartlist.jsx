@@ -16,7 +16,7 @@ const Cartlist = () => {
       <h2 style={{textAlign:'center', color:'Highlight', margin:'40px'}}>Cart Items</h2>
       {cartItems.length === 0 ? (
         <div>
-        <img src="/public/emptybox.jpeg" style={empty}/>
+        <img src="/Xpressionstoree/emptybox.jpeg" style={empty}/>
         <p style={{textAlign:'center'}}>Your cart is empty!</p>
         </div>
       ) : (
