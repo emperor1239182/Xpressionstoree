@@ -34,7 +34,7 @@ const Shop = () => {
           const li = ul.getElementsByTagName('li');
     
           for (let i = 0; i < li.length; i++) {
-            const link = li[i].getElementsByTagName('a')[0] || li[i].getElementsByTagName('Link')[0];
+            const link = li[i].getElementsByTagName('li')[0] || li[i].getElementsByTagName('Link')[0];
             const textValue = link.textContent || link.innerText;
             if (textValue.toUpperCase().indexOf(filter) > -1) {
               li[i].style.display = '';
