@@ -49,7 +49,7 @@ const Home = () => {
         backgroundColor: 'rgb(233, 230, 230)',
         padding: '20px'
      }
-     //shop with card
+     //Xpressionstoree/shop with card
      const shop = {
         textAlign:'center',
          backgroundColor:'#fc00ff', 
@@ -173,77 +173,77 @@ useEffect (() => {
             <li>
             <h4>Popular Products</h4>
             <br /> 
-                <Link to="/shop" className='link'> <img src="/Xpressionstoree/hf.JPG" style={productsImages}></img> </Link>
+                <Link to="/Xpressionstoree/shop" className='link'> <img src="/Xpressionstoree/hf.JPG" style={productsImages}></img> </Link>
                 <p className="productName" style={{fontSize: '13.8px'}}>High Fashion</p> 
                 <p className="price">$9000</p>
                 <AddToCartButton onClick={() => addToCart("/Xpressionstoree/hf.JPG")} >Add to cart</AddToCartButton>
             </li>
             <li>
             <br /> <br />
-                <Link to="/shop" className='link'> <img src="/Xpressionstoree/green joggers.JPG" style={productsImages}></img>  </Link>
+                <Link to="/Xpressionstoree/shop" className='link'> <img src="/Xpressionstoree/green joggers.JPG" style={productsImages}></img>  </Link>
                 <p className="productName" style={{fontSize: '13.8px'}}>Joggers</p>
                 <p className="price">$6000</p>
                <AddToCartButton onClick={() => addToCart("/Xpressionstoree/green joggers.JPG")} >Add to cart</AddToCartButton>
             </li>
             <li>
             <br /> <br />
-                <Link to="/shop" className='link'> <img src="/Xpressionstoree/armless.JPG" style={productsImages}></img>  </Link>
+                <Link to="/Xpressionstoree/shop" className='link'> <img src="/Xpressionstoree/armless.JPG" style={productsImages}></img>  </Link>
                 <p className="productName" style={{fontSize: '13.8px'}}>Armless</p>
                 <p className="price">$2000</p>
                 <AddToCartButton onClick={() => addToCart("/Xpressionstoree/armless.JPG")} > Add to cart</AddToCartButton>
             </li>
             <li>
             <br /> <br />
-                <Link to="/shop" className='link'> <img src="/Xpressionstoree/white vintage.JPG" style={productsImages}></img>  </Link>
+                <Link to="/Xpressionstoree/shop" className='link'> <img src="/Xpressionstoree/white vintage.JPG" style={productsImages}></img>  </Link>
                 <p className="productName" style={{fontSize: '13.8px'}}>Vintage</p>
                 <p className="price">$1000</p>
                 <AddToCartButton onClick={() => addToCart("/Xpressionstoree/white vintage.JPG")} > Add to cart</AddToCartButton>
             </li>
             <li>
                 <br/> <br />
-                <Link to="/shop" className="link "> <img src="/Xpressionstoree/jeans up and down.JPG" style={productsImages}></img> </Link>
+                <Link to="/Xpressionstoree/shop" className="link "> <img src="/Xpressionstoree/jeans up and down.JPG" style={productsImages}></img> </Link>
                 <p className="productName" style={{fontSize: '13.8px'}}>Zipper jeans</p>
                 <p className="price">$3000</p>
                 <AddToCartButton onClick={() => addToCart("/Xpressionstoree/jeans up and down.JPG")} > Add to cart</AddToCartButton>
             </li>
             <li>
                 <br/> <br />
-                <Link to="/shop" className="link "> <img src="/Xpressionstoree/TTIO8506.JPG" style={productsImages}></img> </Link>
+                <Link to="/Xpressionstoree/shop" className="link "> <img src="/Xpressionstoree/TTIO8506.JPG" style={productsImages}></img> </Link>
                 <p className="productName" style={{fontSize: '13.8px'}}>Two Piece</p>
                 <p className="price">$9000</p>
                 <AddToCartButton onClick={() => addToCart("/Xpressionstoree/TTIO8506.JPG")} > Add to cart</AddToCartButton>
             </li>
             <li>
                 <br/> <br />
-                <Link to="/shop" className="link "> <img src="/Xpressionstoree/PGGY2062.JPG" style={productsImages}></img> </Link>
+                <Link to="/Xpressionstoree/shop" className="link "> <img src="/Xpressionstoree/PGGY2062.JPG" style={productsImages}></img> </Link>
                 <p className="productName" style={{fontSize: '13.8px'}}> Chrome Combat Short</p>
                 <p className="price">$4000</p>
                 <AddToCartButton onClick={() => addToCart("/Xpressionstoree/PGGY2062.JPG")} > Add to cart</AddToCartButton>
             </li>
             <li>
                 <br/> <br />
-                <Link to="/shop" className="link "> <img src="/Xpressionstoree/LXLK6631.JPG" style={productsImages}></img> </Link>
+                <Link to="/Xpressionstoree/shop" className="link "> <img src="/Xpressionstoree/LXLK6631.JPG" style={productsImages}></img> </Link>
                 <p className="productName" style={{fontSize: '13.8px'}}>High Quality Stylish</p>
                 <p className="price">$3000</p>
                 <AddToCartButton onClick={() => addToCart("/Xpressionstoree/LXLK6631.JPG")} > Add to cart</AddToCartButton>
             </li>
             <li>
                 <br/> <br />
-                <Link to="/shop" className="link "> <img src="/Xpressionstoree/KVJJ2447.JPG" style={productsImages}></img> </Link>
+                <Link to="/Xpressionstoree/shop" className="link "> <img src="/Xpressionstoree/KVJJ2447.JPG" style={productsImages}></img> </Link>
                 <p className="productName" style={{fontSize: '13.8px'}}>Zipper Joggers</p>
                 <p className="price">$8000</p>
                 <AddToCartButton onClick={() => addToCart("/Xpressionstoree/KVJJ2447.JPG")} > Add to cart</AddToCartButton>
             </li>
             <li>
                 <br/> <br />
-                <Link to="/shop" className="link "> <img src="/Xpressionstoree/women jeans.JPG" style={productsImages}></img> </Link>
+                <Link to="/Xpressionstoree/shop" className="link "> <img src="/Xpressionstoree/women jeans.JPG" style={productsImages}></img> </Link>
                 <p className="productName" style={{fontSize: '13.8px'}}>Chrome Combat jeans</p>
                 <p className="price">$2000</p>
                 <AddToCartButton onClick={() => addToCart("/Xpressionstoree/women jeans.JPG")} > Add to cart</AddToCartButton>
             </li>
             <li>
                 <br/> <br />
-                <Link to="/shop" className="link "> <img src="/Xpressionstoree/black armless.JPG" style={productsImages}></img> </Link>
+                <Link to="/Xpressionstoree/shop" className="link "> <img src="/Xpressionstoree/black armless.JPG" style={productsImages}></img> </Link>
                 <p className="productName" style={{fontSize: '13.8px'}}>Two Piece</p>
                 <p className="price">$9000</p>
                 <AddToCartButton onClick={() => addToCart("/Xpressionstoree/black armless.JPG")} > Add to cart</AddToCartButton>
@@ -260,19 +260,19 @@ useEffect (() => {
              <img src="/Xpressionstoree/crochet sweater.WEBP" className='sweater' style={productsImages}></img> 
             <p className="productName" style={{fontSize: '13px'}}>Crochet Sweater </p>
             <p className="productName" style={{fontSize: '13px'}}>Crochet sweater collection just for you</p>
-                <Link to="/shop" className="link ">see more <FontAwesomeIcon icon={faArrowAltCircleRight}/></Link>
+                <Link to="/Xpressionstoree/shop" className="link ">see more <FontAwesomeIcon icon={faArrowAltCircleRight}/></Link>
                 </li>
                 <li>
                  <img src="/Xpressionstoree/Blue hoodie.JPG" className="sweater" style={productsImages}></img>  
                 <p className="productName" style={{fontSize: '13px'}}>Blue Hoodie</p>
                 <p className="productName" style={{fontSize: '13px'}}>Blue hoodie collection, peerfect for gifting </p>
-                <Link to="/shop" className="link">see more <FontAwesomeIcon icon={faArrowAltCircleRight}/></Link>
+                <Link to="/Xpressionstoree/shop" className="link">see more <FontAwesomeIcon icon={faArrowAltCircleRight}/></Link>
                 </li>
                 <li>
                  <img src="/Xpressionstoree/green sweater.JPG" className="sweater" style={productsImages}></img> 
                 <p className="productName" style={{fontSize: '13'}}>Green Sweater</p>
                 <p className="productName" style={{fontSize: '13px'}}>Lovely winter collection just for you </p>
-                <Link to="/shop" className="link ">see more <FontAwesomeIcon icon={faArrowAltCircleRight}/></Link>
+                <Link to="/Xpressionstoree/shop" className="link ">see more <FontAwesomeIcon icon={faArrowAltCircleRight}/></Link>
                 </li>
                 </div>
             </div> 
@@ -283,7 +283,7 @@ useEffect (() => {
             <div className="combatPants" style={Samples}>
                 <div className="pants">
                 <li>
-                <Link to="/shop" className="link ">
+                <Link to="/Xpressionstoree/shop" className="link ">
                  <img src="/Xpressionstoree/blue cargo pant.JPG" className="sweater" style={productsImages}></img> 
                  </Link>
                 <p className="productName" style={{fontSize: '13'}}>Blue Combat Pant</p>
@@ -291,7 +291,7 @@ useEffect (() => {
                 <AddToCartButton onClick={() => addToCart("/Xpressionstoree/blue cargo pant.JPG")} > Add to cart </AddToCartButton>
                 </li>
                 <li>
-                <Link to="/shop" className="link ">
+                <Link to="/Xpressionstoree/shop" className="link ">
                  <img src="/Xpressionstoree/brown cargo.JPG" className="sweater" style={productsImages}></img> 
                  </Link>
                 <p className="productName" style={{fontSize: '13'}}>Cargo Pant</p>
@@ -299,7 +299,7 @@ useEffect (() => {
                 <AddToCartButton onClick={() => addToCart("/Xpressionstoree/brown cargo.JPG")} > Add to cart</AddToCartButton>
                 </li>
                 <li>
-                <Link to="/shop" className="link ">
+                <Link to="/Xpressionstoree/shop" className="link ">
                  <img src="/Xpressionstoree/quality combat pant.JPG" className="sweater" style={productsImages}></img> 
                  </Link>
                 <p className="productName" style={{fontSize: '13'}}>Luxury Cobant Pant</p>
@@ -307,7 +307,7 @@ useEffect (() => {
                 <AddToCartButton onClick={() => addToCart("/Xpressionstoree/quality combat pant.JPG")} > Add to cart</AddToCartButton>
                 </li>
                 <li>
-                <Link to="/shop" className="link ">
+                <Link to="/Xpressionstoree/shop" className="link ">
                  <img src="/Xpressionstoree/slim fit cargo.JPG" className="sweater" style={productsImages}></img> 
                  </Link>
                 <p className="productName" style={{fontSize: '13'}}>Perfect Fit</p>
@@ -315,7 +315,7 @@ useEffect (() => {
                 <AddToCartButton onClick={() => addToCart("/Xpressionstoree/slim fit cargo.JPG")} > Add to cart</AddToCartButton>
                 </li>
                 <li>
-                <Link to="/shop" className="link ">
+                <Link to="/Xpressionstoree/shop" className="link ">
                  <img src="/Xpressionstoree/white rope cargo.JPG" className="sweater" style={productsImages}></img> 
                  </Link>
                 <p className="productName" style={{fontSize: '13'}}>High Fashion</p>
@@ -323,7 +323,7 @@ useEffect (() => {
                 <AddToCartButton onClick={() => addToCart("/Xpressionstoree/white rope cargo.JPG")} > Add to cart</AddToCartButton>
                 </li>
                 <li>
-                <Link to="/shop" className="link ">
+                <Link to="/Xpressionstoree/shop" className="link ">
                  <img src="/Xpressionstoree/white jorgas.JPG" className="sweater" style={productsImages}></img> 
                  </Link>
                 <p className="productName" style={{fontSize: '13'}}>Jorgas</p>
@@ -331,7 +331,7 @@ useEffect (() => {
                 <AddToCartButton onClick={() => addToCart("/Xpressionstoree/white jorgas.JPG")} > Add to cart</AddToCartButton>
                 </li>
                 <li>
-                <Link to="/shop" className="link ">
+                <Link to="/Xpressionstoree/shop" className="link ">
                  <img src="/Xpressionstoree/swag.JPG" className="sweater" style={productsImages}></img> 
                  </Link>
                 <p className="productName" style={{fontSize: '13'}}>Two Piece</p>
@@ -339,7 +339,7 @@ useEffect (() => {
                 <AddToCartButton onClick={() => addToCart("/Xpressionstoree/swag.JPG")} > Add to cart</AddToCartButton>
                 </li>
                 <li>
-                <Link to="/shop" className="link ">
+                <Link to="/Xpressionstoree/shop" className="link ">
                  <img src="/Xpressionstoree/ash joggers.JPG" className="sweater" style={productsImages}></img> 
                  </Link>
                 <p className="productName" style={{fontSize: '13'}}>Zip UP Pant</p>
@@ -347,7 +347,7 @@ useEffect (() => {
                 <AddToCartButton onClick={() => addToCart("/Xpressionstoree/ash joggers.JPG")} > Add to cart</AddToCartButton>
                 </li>
                 <li>
-                <Link to="/shop" className="link ">
+                <Link to="/Xpressionstoree/shop" className="link ">
                  <img src="/Xpressionstoree/blue cargo pant.JPG" className="sweater" style={productsImages}></img> 
                  </Link>
                 <p className="productName" style={{fontSize: '13'}}>Cargo Pant</p>
@@ -362,7 +362,7 @@ useEffect (() => {
                 <div className="newProducts">
                     <li>
                     <h4 >Shoes Collection</h4> <br /> 
-                <Link to="/shop" className="link ">
+                <Link to="/Xpressionstoree/shop" className="link ">
                  <img src="/Xpressionstoree/High fashion mixed loafers.JPG"  style={productsImages}></img> 
                  </Link>
                 <p className="productName" style={{fontSize: '13'}}>Mixed Loafers</p>
@@ -370,7 +370,7 @@ useEffect (() => {
                 <AddToCartButton onClick={() => addToCart("/Xpressionstoree/High fashion mixed loafers.JPG")} > Add to cart</AddToCartButton>
                 </li> 
                 <li> <br /> <br />
-                <Link to="/shop" className="link ">
+                <Link to="/Xpressionstoree/shop" className="link ">
                  <img src="/Xpressionstoree/female.JPG" style={productsImages}></img> 
                  </Link>
                 <p className="productName" style={{fontSize: '13'}}>Jeans Made sandals</p>
@@ -378,7 +378,7 @@ useEffect (() => {
                 <AddToCartButton onClick={() => addToCart("/Xpressionstoree/female.JPG")} > Add to cart</AddToCartButton>
                 </li>
                 <li> <br /> <br />
-                <Link to="/shop" className="link ">
+                <Link to="/Xpressionstoree/shop" className="link ">
                  <img src="/Xpressionstoree/Derby.JPG" style={productsImages}></img> 
                  </Link>
                 <p className="productName" style={{fontSize: '13'}}>Derby</p>
@@ -386,7 +386,7 @@ useEffect (() => {
                 <AddToCartButton onClick={() => addToCart("/Xpressionstoree/Derby.JPG")} > Add to cart</AddToCartButton>
                 </li>
                 <li> <br /> <br />
-                <Link to="/shop" className="link ">
+                <Link to="/Xpressionstoree/shop" className="link ">
                  <img src="/Xpressionstoree/Loafers.JPG" style={productsImages}></img> 
                  </Link>
                 <p className="productName" style={{fontSize: '13'}}>Loafers</p>
@@ -394,7 +394,7 @@ useEffect (() => {
                 <AddToCartButton onClick={() => addToCart("/Xpressionstoree/Loafers.JPG")} > Add to cart</AddToCartButton>
                 </li>
                 <li> <br /> <br />
-                <Link to="/shop" className="link ">
+                <Link to="/Xpressionstoree/shop" className="link ">
                  <img src="/Xpressionstoree/oxford sshoe.JPG" style={productsImages}></img> 
                  </Link>
                 <p className="productName" style={{fontSize: '13'}}>All Black Oxford</p>
@@ -402,7 +402,7 @@ useEffect (() => {
                 <AddToCartButton onClick={() => addToCart("/Xpressionstoree/oxford sshoe.JPG")} > Add to cart</AddToCartButton>
                 </li>
                 <li> <br /> <br />
-                <Link to="/shop" className="link ">
+                <Link to="/Xpressionstoree/shop" className="link ">
                  <img src="/Xpressionstoree/pink crocs.JPG" style={productsImages}></img> 
                  </Link>
                 <p className="productName" style={{fontSize: '13'}}>Crocs</p>
@@ -410,7 +410,7 @@ useEffect (() => {
                 <AddToCartButton onClick={() => addToCart("/Xpressionstoree/pink crocs.JPG")} > Add to cart</AddToCartButton>
                 </li>
                 <li> <br /> <br />
-                <Link to="/shop" className="link ">
+                <Link to="/Xpressionstoree/shop" className="link ">
                  <img src="/Xpressionstoree/loaffers.JPG" style={productsImages}></img> 
                  </Link>
                 <p className="productName" style={{fontSize: '13'}}>Loafers</p>
@@ -418,7 +418,7 @@ useEffect (() => {
                 <AddToCartButton onClick={() => addToCart("/Xpressionstoree/loaffers.JPG")} > Add to cart</AddToCartButton>
                 </li>
                 <li> <br /> <br />
-                <Link to="/shop" className="link ">
+                <Link to="/Xpressionstoree/shop" className="link ">
                  <img src="/Xpressionstoree/monk strap.JPG" style={productsImages}></img> 
                  </Link>
                 <p className="productName" style={{fontSize: '13'}}>Monk Strap</p>
@@ -433,7 +433,7 @@ useEffect (() => {
                     <h4 >Come And Let Us Style You</h4>
                     <p>get in touch with us today</p>
                     <p>explore our shop</p> <br />
-                    <Link to="/shop" className="link shopLink">shop</Link>
+                    <Link to="/Xpressionstoree/shop" className="link shopLink">shop</Link>
                 </div>
             </section> <br /> <br />
 
@@ -480,7 +480,7 @@ useEffect (() => {
               <span className="design orange"></span> <span className="design red"></span>
             </div>
         </div>
-        <p style={shop}><Link to='/shop' className="link">Shop With Your Card </Link> </p>
+        <p style={shop}><Link to='/Xpressionstoree/shop' className="link">Shop With Your Card </Link> </p>
             </section>
             <Footer/>
         </>
