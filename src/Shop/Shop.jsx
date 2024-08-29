@@ -132,21 +132,21 @@ const Shop = () => {
                 <p className="price">$9000</p>
             </li>
             <li> <br /> <br />
-                <Link to="/shop" className="link ">
+                <Link to="/Xpressionstoree/shop" className="link ">
                  <img src="/Xpressionstoree/pink crocs.JPG" style={productsImages}></img> 
                 <p className="productName" style={{fontSize: '13'}}>Crocs</p>
                 <p className="price">$800</p>
                 </Link>
                 </li>
                 <li> <br /> <br />
-                <Link to="/shop" className="link ">
+                <Link to="/Xpressionstoree/shop" className="link ">
                  <img src="/Xpressionstoree/loaffers.JPG" style={productsImages}></img> 
                 <p className="productName" style={{fontSize: '13'}}>Loafers</p>
                 <p className="price">$600</p>
                 </Link>
                 </li>
                 <li> <br /> <br />
-                <Link to="/shop" className="link ">
+                <Link to="/Xpressionstoree/shop" className="link ">
                  <img src="/Xpressionstoree/monk strap.JPG" style={productsImages}></img> 
                 <p className="productName" style={{fontSize: '13'}}>Monk Strap</p>
                 <p className="price">$400</p>
