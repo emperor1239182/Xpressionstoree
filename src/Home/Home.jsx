@@ -452,7 +452,7 @@ useEffect (() => {
             <section className="ask">
                 <div className="info" style={info}>
                     <p style={{fontFamily:'monospace', fontSize:'1.3rem', marginBottom:'12px'}}>HAVE ANY QUESTIONS YOU WANT TO ASK US?</p> 
-                    <Link to='/faq' className="link">Read our frequently asked questions here <FontAwesomeIcon icon={faArrowAltCircleRight} /></Link>
+                    <Link to='/Xpressionstoree/faq' className="link">Read our frequently asked questions here <FontAwesomeIcon icon={faArrowAltCircleRight} /></Link>
                 </div>
             </section> <br />
 
