@@ -279,7 +279,7 @@ useEffect (() => {
             </section><br /> <br />
 
             <section className="Combat-Pants">
-            <h4 style={{textAlign: 'center'}}>Combat Pan Collection</h4> <br /> <br />
+            <h4 style={{textAlign: 'center'}}>Combat Pa Collection</h4> <br /> <br />
             <div className="combatPants" style={Samples}>
                 <div className="pants">
                 <li>
